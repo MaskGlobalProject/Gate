@@ -1,6 +1,12 @@
-def mask_global_gate():
-    print("Welcome to the Mask Global Project.")
-    print("The official gate is now active.")
+# MASK GLOBAL - THE GATE
+# Excellence is our only identity.
+
+def welcome_message():
+    print("--- MASK GLOBAL GATEWAY ---")
+    print("Status: Active")
+    print("Mission: Excellence and Innovation")
+    print("---------------------------")
+    print("Welcome, Innovator. The Gate is open for your projects.")
 
 if __name__ == "__main__":
-    mask_global_gate()
+    welcome_message()
