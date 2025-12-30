@@ -1,10 +1,13 @@
 import datetime
 
-# Mask Global Project - The Gate (Pro Version)
+# Mask Global Project - The Gate
 # Excellence is our only identity.
 
+def encrypt_message(message):
+    # محرك التشفير السري
+    return "".join([chr(ord(c) + 3) for c in message])
+
 def log_attempt(status):
-    # هذا الجزء ينشئ ملفاً يسجل تاريخ ومحاولات الدخول
     with open("access_log.txt", "a") as log_file:
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         log_file.write(f"[{timestamp}] Attempt: {status}\n")
@@ -12,16 +15,21 @@ def log_attempt(status):
 def enter_gate():
     secret_key = "MASK2025"
     print("--- Welcome to Mask Global Gate ---")
-    user_input = input("Please enter the Excellence Key: ")
+    user_input = input("Enter Excellence Key: ")
     
     if user_input == secret_key:
-        print("Access Granted. Welcome to the future.")
+        print("\n[Access Granted]")
         log_attempt("SUCCESS")
+        
+        # نظام التشفير يظهر هنا فقط بعد النجاح
+        msg = input("Enter message to encrypt: ")
+        print(f"Cipher: {encrypt_message(msg)}")
     else:
-        print("Access Denied. Only excellence is allowed here.")
+        print("\n[Access Denied]")
         log_attempt("FAILED")
 
 if __name__ == "__main__":
     enter_gate()
+
 
 
