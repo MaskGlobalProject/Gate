@@ -15,4 +15,9 @@ Welcome to the official technical gateway. Excellence is our only identity.
 🛡️ Legal & Licensing
 • Ownership: This project is the official property of Mask Global Project.
 • License: Licensed under the MIT License. For full details, refer to the LICENSE file.
+### 🚀 Upcoming Tasks (To-Do List)
+- [ ] Phase 1: Gate Optimization (Developing `gate.py`)
+- [ ] Phase 2: Identity Verification System
+- [ ] Phase 3: Mobile UI Design (Flutter/React Native)
+- [ ] Phase 4: Advanced Cyber Security Layers
 
