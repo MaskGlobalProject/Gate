@@ -12,4 +12,7 @@ Welcome to the official technical gateway. Excellence is our only identity.
 
 ## 🔗 Connect with Us
 * **X (Twitter)**: [@mask_global_hp](https://x.com/mask_global_hp)
+🛡️ Legal & Licensing
+• Ownership: This project is the official property of Mask Global Project.
+• License: Licensed under the MIT License. For full details, refer to the LICENSE file.
 
