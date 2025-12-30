@@ -12,3 +12,9 @@ Excellence is our only identity.
 
 ## 🌐 Phase 3: Global Ecosystem (2025)
 * **Goal**: Full deployment of the Mask Global ecosystem.
+---
+### 🚀 Immediate Action Plan (To-Do List)
+- [ ] Task 1: Gate Logic Refinement (Enhance `gate.py` security)
+- [ ] Task 2: Multi-Factor Authentication (MFA) Concept
+- [ ] Task 3: Mobile Interface Prototyping (UI/UX)
+- [ ] Task 4: Legal Framework Expansion (IP Protection)
